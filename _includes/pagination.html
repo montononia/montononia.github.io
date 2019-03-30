@@ -1,8 +1,15 @@
-<section class="fixed-l mw7 center w-100 top-50 tc pb4 nt4">
-  {% if page.previous %}
-    <a href="{{ site.url }}{{ page.previous.url }}" class="no-underline f1 light-blue hover-silver nl5 fl-l ph3">‹</a>
+<nav class="pagination" role="navigation">
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <a rel="prev" class="posts newer btn small" href="{{ site.baseurl }}/#blog" title="Previous Page">← Newer Posts</a>
+    {% else %}
+      <a rel="prev" class="posts newer btn small" href="{{ site.baseurl }}/page{{ paginator.previous_page }}/">← Newer Posts</a>
+    {% endif %}
   {% endif %}
-  {% if page.next %}
-    <a href="{{ site.url }}{{page.next.url}}" class="no-underline f1 light-blue hover-silver nr5 fr-l ph3">›</a>
+
+  <span class="pagination__page-number">Page {{ paginator.page}} of {{ paginator.total_pages}}</span>
+
+  {% if paginator.next_page %}
+    <a rel="next" class="posts older btn small" href="{{ site.baseurl }}/page{{ paginator.next_page }}/">Older Posts →</a>
   {% endif %}
-</section>
+</nav>
