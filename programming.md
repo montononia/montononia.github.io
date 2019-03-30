@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 编程
-Permalink: /programming/
+permalink: /programming/
 ​---
 
 
