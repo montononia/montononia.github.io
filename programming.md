@@ -1,10 +1,5 @@
 ---
 layout: page
-title: 编程
+title : 编程
 permalink: /programming/
-​---
-
-
-
-
-
+---
