@@ -1,5 +1,5 @@
 # blog page sections
-- name: Blog
+- name: 博客
   href: /blog/
 
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
@@ -9,13 +9,13 @@
 - name: Linux
   href: /linux/
 
-- name: Database
+- name: 数据库
   href: /database/
 
 - name: Mac
   href: /mac/
 
-- name: Life
+- name: 随想
   href: /life/
 
 - name: C++

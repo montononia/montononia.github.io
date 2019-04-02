@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: GitHub, C++, HTML5, ReactJS, 机器学习, Python, Sleeping
+aspects: GitHub, C++, HTML5, 数据库, 机器学习, Python, Sleeping
 percentage: 100, 35, 65, 80, 70, 90, 50
